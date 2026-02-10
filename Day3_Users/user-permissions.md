@@ -1,13 +1,12 @@
 # Linux Practical - Day 3 User & Permission Management
 
-## ✅ Objective
+##  Objective
 To learn how to create users, manage groups, and handle file permissions in Linux.
 
 ---
 
 ##  Create a New User
 
-```bash
 sudo adduser devopsuser
 
 ## Set or Change Password
