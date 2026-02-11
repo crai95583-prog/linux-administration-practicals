@@ -5,8 +5,8 @@ To learn basic networking commands, remote access using SSH, and firewall checks
 
 ---
 
-## Check IP Address
 
+## Check IP Address
 ```bash
 ip a
 or
