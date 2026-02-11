@@ -3,7 +3,6 @@
 ## ✅ Objective
 To learn basic networking commands, remote access using SSH, and firewall checks in Linux.
 
----
 
 
 ## Check IP Address
