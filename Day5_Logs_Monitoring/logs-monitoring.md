@@ -5,10 +5,9 @@ To learn how to monitor system resources, analyze logs, and troubleshoot issues 
 
 ---
 
-#### System Monitoring Commands
+## 1️⃣ System Monitoring Commands
 
 ### Check CPU & Processes
-
 ```bash
 top
 htop
@@ -21,8 +20,8 @@ Check Disk Usage
 df -h
 du -sh *
 
-##### Log Monitoring (Very Important)
- View system logs
+2️⃣ Log Monitoring (Very Important)
+View system logs
 tail -f /var/log/syslog
 
 Check authentication logs
@@ -31,18 +30,18 @@ cat /var/log/auth.log
 View error logs using journalctl
 journalctl -xe
 
-## Search Logs for Errors
+3️⃣ Search Logs for Errors
 grep "error" /var/log/syslog
 grep "failed" /var/log/auth.log
 
-## Check Running Services
+4️⃣ Check Running Services
 List all services
 systemctl list-units --type=service
 
 Check specific service status
 systemctl status nginx
 
-  ## Network Troubleshooting
+5️⃣ Network Troubleshooting
 Check open ports
 ss -tulnp
 
@@ -50,7 +49,7 @@ Test connectivity
 ping google.com
 curl -I google.com
 
-## Troubleshooting Use Case Examples
+6️⃣ Troubleshooting Use Case Examples
 Server Disk Full
 df -h
 du -sh /var/log/*
