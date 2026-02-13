@@ -12,10 +12,7 @@ Create file:
 ```bash
 nano hello.sh
 
-#!/bin/bash
-echo "Hello DevOps World!"
-
-Add:
+Add inside file:
 
 #!/bin/bash
 echo "Hello DevOps World!"
@@ -78,3 +75,8 @@ Run:
 
 chmod +x disk-check.sh
 ./disk-check.sh
+
+## ⭐ Key Learning
+- Learned Bash basics for automation  
+- Practiced loops, conditions, user input  
+- Created disk usage monitoring script
