@@ -58,7 +58,10 @@ echo ""
 echo "✅ Health Check Completed!"
 
 
+3️⃣ Give Execute Permission
 
 chmod +x health-check.sh
 
+
+4️⃣ Run the Script
 ./health-check.sh
