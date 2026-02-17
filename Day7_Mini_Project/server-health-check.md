@@ -1,22 +1,20 @@
 # Linux Mini Project - Day 7 Server Health Monitoring
 
 ## ✅ Objective
-To create a simple Linux server monitoring script that checks system health status.
+To create a Linux server monitoring script that checks system health status.
 
 This project simulates real DevOps daily monitoring tasks.
 
 ---
 
-## 📌 Project Overview
+## 📌 Script Generates Report For
 
-The script will generate a health report including:
-
-- CPU Load
-- Memory Usage
-- Disk Usage
-- Uptime
-- Running Services
-- Recent Logs
+- CPU Load  
+- Memory Usage  
+- Disk Usage  
+- Uptime  
+- Running Services  
+- Recent Logs  
 
 ---
 
@@ -49,8 +47,8 @@ echo "🗄 Disk Usage:"
 df -h
 
 echo ""
-echo "⚙️ Running Services (nginx example):"
-systemctl status nginx --no-pager
+echo "⚙️ Running Services (SSH):"
+systemctl status ssh --no-pager
 
 echo ""
 echo "📜 Recent System Logs:"
@@ -60,8 +58,7 @@ echo ""
 echo "✅ Health Check Completed!"
 
 
-3️⃣ Give Execute Permission
+
 chmod +x health-check.sh
 
-4️⃣ Run the Script
 ./health-check.sh
